@@ -42,4 +42,11 @@ export class MobPartsComponent {
       country: "India"
     }
   ];
+  totalmobiparts() {
+    let sum = 0;
+    for (let count of this.mobParts) {
+      sum += count.inStock;
+    }
+    return sum;
+  }
 }

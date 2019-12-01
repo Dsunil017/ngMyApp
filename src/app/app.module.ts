@@ -6,8 +6,11 @@ import { MobPartsComponent } from './mob-parts/mob-parts.component';
 import { BooksListComponent } from './books-list/books-list.component';
 import { BikeListComponent } from './bike-list/bike-list.component';
 import { LaptopListComponent } from './laptop-list/laptop-list.component';
+import { BannerparadoxComponent } from './bannerparadox/bannerparadox.component';
+
+import { NavComponent } from './Layout/nav/nav.component';
 @NgModule({
-  declarations: [FirstComponent, SampleDirectiveDirective, MobPartsComponent, BooksListComponent, BikeListComponent, LaptopListComponent],
+  declarations: [FirstComponent, SampleDirectiveDirective, MobPartsComponent, BooksListComponent, BikeListComponent, LaptopListComponent, BannerparadoxComponent, NavComponent],
   imports: [BrowserModule],
   bootstrap: [FirstComponent]
 })
